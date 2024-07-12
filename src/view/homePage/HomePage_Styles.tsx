@@ -1,0 +1,54 @@
+import { StyleSheet } from "react-native";
+import { useState } from "react";
+
+export const HomePageStyle = StyleSheet.create({
+    main:{
+        backgroundColor:'#000000',
+        borderEndWidth:2,
+        borderEndColor:'#060108',
+        flexDirection:'column',
+        flex:1,
+    },
+    header:{
+        flex:2
+    },
+    EvetoCreateView:{
+        flexDirection:"row",
+        alignContent:'center',
+        flex:2,
+        width:300,
+        alignSelf:'center'
+    },
+    buttonsView:{
+        flexDirection:'row',
+        alignContent:'space-between',
+        flex:2,
+        marginVertical:30
+    },
+    footer:{
+        flex:1,
+    },
+    button_text_view:{
+        flexDirection:'column',
+        alignItems:'stretch',
+        justifyContent:'center',
+    },
+    text_evento:{
+        flex:1,
+        marginTop:80,
+        fontSize:30,
+        fontStyle:'italic',
+        color:'#A9A9A9',
+    },
+    text_title:{
+        flex:1,
+        fontSize:50,
+        color:'red',
+        textAlignVertical:'center',
+        textDecorationStyle:'solid',
+        textAlign:'center',
+        textTransform:'uppercase',
+        textShadowRadius:10,
+        textShadowColor:'#A9A9A9'
+    }
+})
