@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { useState } from "react";
+
 
 export const HomePageStyle = StyleSheet.create({
     main:{
@@ -43,12 +43,12 @@ export const HomePageStyle = StyleSheet.create({
     text_title:{
         flex:1,
         fontSize:50,
-        color:'red',
+        color:"#A9A9A9",
         textAlignVertical:'center',
         textDecorationStyle:'solid',
         textAlign:'center',
         textTransform:'uppercase',
-        textShadowRadius:10,
+        textShadowRadius:50,
         textShadowColor:'#A9A9A9'
     }
 })
